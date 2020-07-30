@@ -6,6 +6,7 @@ html, body{
   margin: 0px;
   min-width: 500px;
   min-height: 400px;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
 @mixin flex-center {
@@ -36,3 +37,4 @@ html, body{
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+

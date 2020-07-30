@@ -1,5 +1,6 @@
 <div class="nb-container">
-  <div class="logo"></div>
+  <div class="logo">
+  </div>
   <nav class="nav-bar">
     <a *ngFor="let menu of navigationMenu" [routerLink]="menu.path" routerLinkActive="active"
       [style]="{'width':'calc(100% /'+navigationMenu.length+')'}">
@@ -7,6 +8,8 @@
     </a>
   </nav>
   <div class="option">
-    <button>Logout</button>
+    <button mat-button>
+      <mat-icon>logout</mat-icon>
+    </button>
   </div>
 </div>
