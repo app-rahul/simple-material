@@ -1,3 +1,21 @@
-<div class="hp-container">
-  <p>home-page works!</p>
-</div>
+<mat-drawer-container class="hp-container">
+  <mat-drawer #drawer mode="over">
+    <button mat-button *ngFor="let item of homeMenu"
+     (click)="drawer.value=item" [class]="{'active':drawer['value']===item}">
+     {{item.name}}
+    </button>
+  </mat-drawer>
+  <mat-drawer-content>
+    <div class="hp-panel">
+      <button mat-button (click)="drawer.toggle()">
+        Menu
+      </button>
+      <div>
+        Welcome to {{drawer['value']?drawer['value'].name:"Angular Material"}} Example
+      </div>
+    </div>
+    <div class="hp-body">
+
+    </div>
+  </mat-drawer-content>
+</mat-drawer-container>

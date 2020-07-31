@@ -7,7 +7,28 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePageComponent implements OnInit {
 
-  constructor() { }
+  public homeMenu = [
+    { name: 'Button', templateName: 'Button-template'},
+    { name: 'Select', templateName: 'select-template'},
+    { name: 'example', templateName: 'example-template'},
+    { name: 'example', templateName: 'example-template'},
+    { name: 'example', templateName: 'example-template'},
+    { name: 'example', templateName: 'example-template'},
+    { name: 'example', templateName: 'example-template'},
+    { name: 'example', templateName: 'example-template'},
+    { name: 'example', templateName: 'example-template'},
+    { name: 'example', templateName: 'example-template'},
+    { name: 'example', templateName: 'example-template'},
+    { name: 'example', templateName: 'example-template'},
+    { name: 'example', templateName: 'example-template'},
+    { name: 'example', templateName: 'example-template'},
+    { name: 'example', templateName: 'example-template'},
+    { name: 'example', templateName: 'example-template'},
+    { name: 'example', templateName: 'example-template'},
+    { name: 'example', templateName: 'example-template'},
+  ];
+
+  constructor(){ }
 
   ngOnInit(): void {
   }

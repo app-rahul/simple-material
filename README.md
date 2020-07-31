@@ -6,5 +6,5 @@ Welcome TO Angular 10 Material hands On project. This Project will be reference 
 <li>Added Angular material by ng add @angular/material</li>
 </ol>
 
-Thanks and Regards,
+Thanks and Regards,<br/>
 Rahul Kumar

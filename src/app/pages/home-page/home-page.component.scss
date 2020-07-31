@@ -1,5 +1,35 @@
 @import "../../../styles.scss";
 
 .hp-container{
-  @include full-flex;
+  @include full-relative;
+  mat-drawer{
+    width: 20%;
+    .active{
+      font-size: 1.1em;
+      background-color: grey;
+    }
+    button{
+      @include full-relative(10%);
+    }
+  }
+  mat-drawer-content {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .hp-panel{
+    @include full-relative(5%,100%);
+    button{
+      @include full-relative(100%,10%)
+    }
+    div{
+      @include full-relative(100%,80%);
+      @include flex-center;
+      font-size: 3em;
+    }
+  }
+  .hp-body{
+    @include full-relative(95%,100%);
+  }
 }
