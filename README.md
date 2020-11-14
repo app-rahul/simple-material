@@ -1,5 +1,5 @@
 <p>
-Welcome TO Angular 10 Material hands On project. This Project will be reference for Angular Material Usage.
+Welcome TO Angular 11 Material hands On project. This Project will be reference for Angular Material Usage.
 </p>
 
 <ol>
